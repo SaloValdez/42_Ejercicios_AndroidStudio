@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_Ejercicio1"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Ejercicio Nº 1"/>
+        <item
+            android:id="@+id/nav_Ejercicio2"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Ejercicio Nº 2"/>
+        <item
+            android:id="@+id/nav_Ejercicio3"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Ejercicio Nº 3"/>
+        <item
+            android:id="@+id/nav_Ejercicio4"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Ejercicio Nº 4"/>
+        <item
+            android:id="@+id/nav_Ejercicio5"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Ejercicio Nº 5"/>
+        <item
+            android:id="@+id/nav_Ejercicio6"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Ejercicio Nº 6"/>
+        <item
+            android:id="@+id/nav_Ejercicio7"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Ejercicio Nº 7"/>
+        <item
+            android:id="@+id/nav_Ejercicio8"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Ejercicio Nº 8"/>
+        <item
+            android:id="@+id/nav_Ejercicio9"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Ejercicio Nº 9"/>
+        <item
+            android:id="@+id/nav_Ejercicio10"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Ejercicio Nº 10"/>
+        <item
+            android:id="@+id/nav_Ejercicio11"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Ejercicio Nº 11"/>
+        <item
+            android:id="@+id/nav_Ejercicio12"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Ejercicio Nº 12"/>
+        <item
+            android:id="@+id/nav_Ejercicio13"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Ejercicio Nº 13"/>
+        <item
+            android:id="@+id/nav_Ejercicio14"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Ejercicio Nº 14"/>
+        <item
+            android:id="@+id/nav_Ejercicio15"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Ejercicio Nº 15"/>
+        <item
+            android:id="@+id/nav_Ejercicio16"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Ejercicio Nº 16"/>
+        <item
+            android:id="@+id/nav_Ejercicio17"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Ejercicio Nº 17"/>
+        <item
+            android:id="@+id/nav_Ejercicio18"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Ejercicio Nº 18"/>
+        <item
+            android:id="@+id/nav_Ejercicio19"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Ejercicio Nº 19"/>
+        <item
+            android:id="@+id/nav_Ejercicio20"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Ejercicio Nº 20"/>
+        <item
+            android:id="@+id/nav_Ejercicio21"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Ejercicio Nº 21"/>
+        <item
+            android:id="@+id/nav_Ejercicio22"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Ejercicio Nº 22"/>
+        <item
+            android:id="@+id/nav_Ejercicio23"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Ejercicio Nº 23"/>
+        <item
+        android:id="@+id/nav_Ejercicio24"
+        android:icon="@drawable/ic_menu_manage"
+        android:title="Ejercicio Nº 24"/>
+        <item
+            android:id="@+id/nav_Ejercicio25"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Ejercicio Nº 25"/>
+        <item
+            android:id="@+id/nav_Ejercicio26"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Ejercicio Nº 26"/>
+        <item
+            android:id="@+id/nav_Ejercicio27"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Ejercicio Nº 27"/>
+        <item
+            android:id="@+id/nav_Ejercicio28"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Ejercicio Nº 28"/>
+        <item
+            android:id="@+id/nav_Ejercicio29"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Ejercicio Nº 29"/>
+        <item
+            android:id="@+id/nav_Ejercicio30"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Ejercicio Nº 30"/>
+        <item
+            android:id="@+id/nav_Ejercicio31"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Ejercicio Nº 31"/>
+        <item
+            android:id="@+id/nav_Ejercicio32"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Ejercicio Nº 32"/>
+        <item
+            android:id="@+id/nav_Ejercicio33"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Ejercicio Nº 33"/>
+        <item
+            android:id="@+id/nav_Ejercicio34"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Ejercicio Nº 34"/>
+        <item
+            android:id="@+id/nav_Ejercicio35"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Ejercicio Nº 35"/>
+        <item
+            android:id="@+id/nav_Ejercicio36"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Ejercicio Nº 36"/>
+        <item
+            android:id="@+id/nav_Ejercicio37"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Ejercicio Nº 37"/>
+        <item
+            android:id="@+id/nav_Ejercicio38"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Ejercicio Nº 38"/>
+        <item
+            android:id="@+id/nav_Ejercicio39"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Ejercicio Nº 39"/>
+        <item
+            android:id="@+id/nav_Ejercicio40"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Ejercicio Nº 40"/>
+        <item
+            android:id="@+id/nav_Ejercicio41"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Ejercicio Nº 41"/>
+        <item
+            android:id="@+id/nav_Ejercicio42"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Ejercicio Nº 42"/>
+<!--       <item
+            android:id="@+id/nav_manage"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Ejercicio Nº 4"/>
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Ejercicio Nº 4"/>
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Ejercicio Nº 4"/>
+-->
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share"/>
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Send"/>
+        </menu>
+    </item>
+
+</menu>

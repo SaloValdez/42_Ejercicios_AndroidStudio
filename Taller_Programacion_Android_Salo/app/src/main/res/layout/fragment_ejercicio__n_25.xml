@@ -1,0 +1,116 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="android.salo.app.salomonvaldez.com.taller_programacion_android_salo.Ejercicio_N_25">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_margin="3dp"
+            android:background="@drawable/borde_linerlayout">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sueldo Anual"/>
+
+            <EditText
+                android:layout_width="128dp"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:text="40000"
+                android:ems="10"
+                android:editable="false"
+                android:id="@+id/txtSueldoAnual" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_margin="3dp"
+            android:background="@drawable/borde_linerlayout">
+
+            <RadioGroup
+                android:layout_width="183dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/radioGrupoOpciones"
+                >
+
+                <RadioButton
+                    android:text="Mas de 10 Años"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radio10Años"
+                    android:layout_weight="1" />
+
+                <RadioButton
+                    android:text="Menos de 10 Años"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioMenos10años"
+                    android:layout_weight="1" />
+
+                <RadioButton
+                    android:text="Menos de 5 Años"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioMenos5Años"
+                    android:layout_weight="1" />
+
+                <RadioButton
+                    android:text="Menos de 3 Años"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioMenos3Años"
+                    android:layout_weight="1" />
+            </RadioGroup>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Calcular"
+                    android:id="@+id/btnCalcular"/>
+
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_margin="3dp"
+            android:background="@drawable/borde_linerlayout"
+                android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="1">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sueldo"/>
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtSueldoNeto"
+                android:layout_weight="0.59" />
+
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</FrameLayout>

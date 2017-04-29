@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Taller_Programacion_Android_Salo</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_actividad_prueba">ActividadPrueba</string>
+    <string name="title_activity_ejercicio__n_21_">Ejercicio_N_21_Activity</string>
+    <string name="title_activity_ejericicio__n_21__actividad">Ejericicio_N_21_Actividad</string>
+    <string name="title_activity_ejercicio__n_21__actividad">Ejercicio_N_21_Actividad</string>
+
+    <!--Esto es para los titulos del ejercicio 23-->
+    <string name="pes1String">  Equilátero </string>
+    <string name="pes3String">  Isósceles </string>
+    <string name="pes2String">  Escaleno </string>
+
+
+</resources>

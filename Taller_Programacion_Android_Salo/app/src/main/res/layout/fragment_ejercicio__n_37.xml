@@ -1,0 +1,84 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="android.salo.app.salomonvaldez.com.taller_programacion_android_salo.Ejercicio_N_37">
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:orientation="vertical">
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:background="@drawable/borde_linerlayout"
+          android:layout_margin="3dp"
+          android:orientation="vertical">
+          <LinearLayout
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:background="@drawable/borde_linerlayout"
+              android:gravity="center">
+              <TextView
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="Cuota Fija:"
+                  />
+              <EditText
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+
+                  android:text="6.0"
+                  android:id="@+id/txtCuotaFija"/>
+          </LinearLayout>
+          <LinearLayout
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="vertical"
+              android:gravity="center">
+              <TextView
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="Comsumo de litros al mes"/>
+              <EditText
+                  android:layout_width="187dp"
+                  android:layout_height="wrap_content"
+                  android:id="@+id/txtConsumoAgua"/>
+          </LinearLayout>
+          <LinearLayout
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:gravity="center">
+              <Button
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="Calcular"
+                  android:id="@+id/btnCalcularAgua"/>
+          </LinearLayout>
+          <LinearLayout
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="horizontal"
+              android:gravity="center"
+              android:weightSum="1">
+              <TextView
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:background="@drawable/borde_linerlayout"
+                  android:textAlignment="center"
+                  android:text=""
+                  android:layout_weight="0.37"
+                  android:id="@+id/tvResultadoAgua"/>
+          </LinearLayout>
+
+
+
+
+
+      </LinearLayout>
+
+
+
+  </LinearLayout>
+
+</FrameLayout>

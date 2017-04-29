@@ -1,0 +1,44 @@
+Index: app/src/main/java/android/salo/app/salomonvaldez/com/taller_programacion_android_salo/Ejercicio_N_21_Equilatero.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/java/android/salo/app/salomonvaldez/com/taller_programacion_android_salo/Ejercicio_N_21_Equilatero.java	(date 1490136682000)
++++ app/src/main/java/android/salo/app/salomonvaldez/com/taller_programacion_android_salo/Ejercicio_N_21_Equilatero.java	(revision )
+@@ -7,21 +7,19 @@
+ import android.view.LayoutInflater;
+ import android.view.View;
+ import android.view.ViewGroup;
+-import android.widget.Button;
+ 
+ 
+ /**
+  * A simple {@link Fragment} subclass.
+  * Activities that contain this fragment must implement the
+- * {@link Ejercicio_N_21.OnFragmentInteractionListener} interface
++ * {@link Ejercicio_N_21_Equilatero.OnFragmentInteractionListener} interface
+  * to handle interaction events.
+  */
+-public class Ejercicio_N_21 extends Fragment {
++public class Ejercicio_N_21_Equilatero extends Fragment {
+ 
+-   //  private Button MostrarToastEnFragment;
+     private OnFragmentInteractionListener mListener;
+ 
+-    public Ejercicio_N_21() {
++    public Ejercicio_N_21_Equilatero() {
+         // Required empty public constructor
+     }
+ 
+@@ -30,10 +28,7 @@
+     public View onCreateView(LayoutInflater inflater, ViewGroup container,
+                              Bundle savedInstanceState) {
+         // Inflate the layout for this fragment
+-        View view =  inflater.inflate(R.layout.fragment_ejercicio__n_21, container, false);
+-           // MostrarToastEnFragment = (Button) view.findViewById(R.id.btnMostrarToast);
+-
+-        return view;
++        return inflater.inflate(R.layout.fragment_ejercicio__n_21__equilatero, container, false);
+     }
+ 
+     // TODO: Rename method, update argument and hook method into UI event

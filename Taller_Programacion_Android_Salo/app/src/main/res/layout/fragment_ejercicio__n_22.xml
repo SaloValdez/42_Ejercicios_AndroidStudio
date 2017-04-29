@@ -1,0 +1,171 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="android.salo.app.salomonvaldez.com.taller_programacion_android_salo.Ejercicio_N_22">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:weightSum="1"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:layout_margin="3dp"
+            android:background="@drawable/borde_linerlayout"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ingese KG :"/>
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtKilogramos"
+                android:layout_weight="0.30" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:weightSum="1">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_margin="3dp"
+                android:background="@drawable/borde_linerlayout"
+                android:weightSum="1">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <RadioGroup
+                        android:layout_width="215dp"
+                        android:layout_height="match_parent"
+                        android:id="@+id/rg1"
+                        >
+                        <RadioButton
+                            android:text="Hectogramo"
+                            android:layout_width="188dp"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/radioHectogramo" />
+
+                        <RadioButton
+                            android:text="Decagramo"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/radioDecagramo" />
+
+                        <RadioButton
+                            android:text="Gramo"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/radioGramo"
+                            android:layout_weight="1" />
+
+                        <RadioButton
+                            android:text="Decigramo"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/radioDecigramo"
+                            android:layout_weight="1" />
+
+                        <RadioButton
+                            android:text="Centigramo"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/radioCentigramo" />
+
+                        <RadioButton
+                            android:text="Miligramo"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/radioMiligramo"
+                            android:layout_weight="1" />
+
+                        <RadioButton
+                            android:text="Libras"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/radioLibras"
+                            android:layout_weight="1" />
+
+                        <RadioButton
+                            android:text="Toneladas"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/radioToneladas"
+                            android:layout_weight="1" />
+
+                        <RadioButton
+                            android:text="Onzas"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/radioOnzas"
+                            android:layout_weight="1" />
+
+                        <RadioButton
+                            android:text="Quilates"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/radioQuilates"
+                            android:layout_weight="1" />
+                    </RadioGroup>
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:weightSum="1">
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/kg"
+                        android:layout_weight="0.51" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:background="@drawable/borde_linerlayout"
+                android:layout_margin="3dp"
+                android:weightSum="1">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Resultado : "
+                    />
+
+                <EditText
+                    android:layout_width="227dp"
+                    android:layout_height="55dp"
+                    android:id="@+id/txtResultado" />
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</FrameLayout>
